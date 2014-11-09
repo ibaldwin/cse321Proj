@@ -1,0 +1,35 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+/* 
+    Created by: Andrew Baker
+    Purpose: Style. Make it look pretty and good.
+*/
+
+div.friends {
+    //Add some borders to make it look separated and such.
+    border-color: #000000;
+    border-style: solid;
+    border-width: 2px;
+    
+    //Add some padding
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#list {
+    //Put the list on the left side
+    width: 45%;
+    position: absolute;
+    left: 5px;
+}
+
+#manage {
+    //Put the management options on the right side
+    width: 45%;
+    position: absolute;
+    right: 5px;
+}
